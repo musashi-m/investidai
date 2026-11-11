@@ -7,6 +7,9 @@ export default {
   darkMode: 'class',
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Nunito', 'sans-serif'],
+      },
       colors: {
         brand: {
           50: '#ecfdf5',
@@ -33,4 +36,3 @@ export default {
   },
   plugins: [],
 }
-
